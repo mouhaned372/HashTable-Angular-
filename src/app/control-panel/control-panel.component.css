@@ -1,0 +1,30 @@
+input{
+  height: 38px;
+  width: 300px;
+  margin-left: 20px;
+  padding-left: 30px;
+
+}
+#inputdiv {
+  padding-top: 40px;
+  padding-left: 200px;
+  background:darkgray;
+  height: 150px;
+}
+.buttons{
+  height: 40px;
+  width: 100px;
+  margin-left: 20px;
+}
+#divmessage{
+  align-items: center;
+  margin-top: 8px;
+  margin-left: 300px;
+  text-align: center;
+  padding-top: 10px;
+  background: white;
+  border-radius: 5px;
+  height: 50px;
+  width: 300px;
+
+}

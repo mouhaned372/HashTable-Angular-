@@ -1,0 +1,11 @@
+
+<div id="inputdiv">
+  <label for="input0">Give An Input :</label>
+  <input id="input0" [(ngModel)]="key">
+  <button id="add" class="buttons" (click)="addKey()">Add (+)</button>
+  <button id="remove" class="buttons" (click)="removeKey()">Remove (-)</button>
+  <button id="contains" class="buttons" (click)="checkKey()">Contains (?)</button>
+  <button id="size" class="buttons" (click)="getTableSize()">Size (..)</button>
+  <button id="clear" class="buttons" (click)="displayTable()" >Clear</button>
+  <div id="divmessage">{{ message }}</div>
+</div>
